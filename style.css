@@ -1,19 +1,42 @@
-body{
+body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.name-highlight{
+
+.name-highlight {
     color: orange;
 }
-.paragraph{
+
+.paragraph {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 
 }
-.paragraph img{
+
+.paragraph img {
     width: 100%;
+}
+
+.top-bannar {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+
+.link {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 700;
 }
